@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!--Para poder aceitar caracteres acentuados-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css"> <!--Não esquecer de linkar o css com o html-->
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css -->
+    <link rel="stylesheet" href="/style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="/style/owl/owl.theme.default.min.css">
+
+    <title>NEBFLIX</title>
+</head>
+<body>
+    <header> <!---Cabeçalho -->
+        <div class="container">
+            <h2 class="logo">NEBFLIX🌵</h2>
+            <nav>
+                <a href="">Inicio</a>
+                <a href="">Séries</a>
+                <a href="">Filmes</a>
+                <a href="">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main> <!--Miolo do site e não deixa de ser uma div-->
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Hoje é Dia de Maria</h3>
+                <p class="descricao">Maria (Carolina Oliveira) é uma humilde menina que, após ver sua família de dissolver, passar a sofrer com os maus tratos da Madrasta (Fernanda Montenegro). Maria foge de casa em busca das franjas do mar, e acaba fazendo uma longa viagem dentro dos contos populares brasileiros. Assista a uma das melhores series da Tv brasileira.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i> <!--Botão exportado dofontawesome -->
+                        <a href="https://youtu.be/kAy-ZgMdexQ" target="_blank">ASSISTIR AGORA</a>
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                        <p id="mousemove" onmousemove="trocar()" onmouseout="voltar()"></p>                                           
+                    </button>
+                </div>
+            </div>
+        </div>  
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                
+                <a href="https://youtu.be/ur4Yg6Tcmjg" target="_blank"><img class="box-filme" src="/img/1amores_roubados.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/iruX5aGznlI" target="_blank"><img class="box-filme" src="/img/2cin_asp_urubus.jpg" alt=""></a>   
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/NrFYL1k6q34" target="_blank"><img class="box-filme" src="/img/3entre_irmas.jpg" alt=""></a>       
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/3wX0pvlnnNU" target="_blank"><img class="box-filme" src="/img/4gabriela.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/63Na62E0LZk" target="_blank"><img class="box-filme" src="/img/5gonzaga_pai_filho.jpg" alt=""></a>   
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/YoRGuC51P_M" target="_blank"><img class="box-filme" src="/img/6o_cam_nuvens.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/oowIQS5_HiU" target="_blank"><img class="box-filme" src="/img/7o_ceu_suely.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/MRsLU7yiogI" target="_blank"><img class="box-filme" src="/img/8o_dragao_santo_guerreiro.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/IgxYcpwMhX8" target="_blank"><img class="box-filme" src="/img/9O_hom_enga_nuvens.jpg" alt=""></a>  
+            </div>
+            <div class="item">
+                <a href="https://youtu.be/8gMmg1tNgfM" target="_blank"><img class="box-filme" src="/img/10vidas_secas.jpg" alt=""></a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/b85790a3ac.js" crossorigin="anonymous"></script>
+    <script src="/js/owl/jquery.min.js"></script>
+    <script src="/js/owl/owl.carousel.min.js"></script>
+    <script src="/js/setup.js"></script>
+    <script src="/js/botao.js"></script>
+
+
+</body>
+</html>

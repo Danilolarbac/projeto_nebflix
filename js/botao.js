@@ -1,0 +1,7 @@
+function trocar(elemento) {
+    document.getElementById("mousemove").innerHTML = "É a fábula infantil de uma menina órfã de mãe, cuja madrasta a seduziu com favos de mel para depois lhe dar o fel. Sua madrasta a enterrou nas terras do pai viajante e lá cresceu um capim muito verde. Quando o pai retornou, ao passar por aquele terreno, ouviu o canto da menina e a desenterrou, ressuscitando-a. Cansada do inferno no lar, causado pela madrasta, Maria foge em busca das franjas do mar, e faz um longo passeio pelos contos populares brasileiros. Em sua viagem, se encontra com vários personagens fantásticos e é amparada pela imagem de Nossa Senhora da Conceição, que dá alento. Ao defender o amigo Zé Cangaia do demônio Asmodeu, que queria lhe comprar a sombra, Maria desafia o Diabo, que, irado, lhe rouba a infância. De um dia para o outro, Maria acorda já adulta, e conhece o seu amado, um jovem vítima de uma maldição: durante a noite é homem, mas ao raiar do dia é transformado num pássaro que sempre a seguiu e protegeu desde menina. O amor de Maria tem dois inimigos: o Diabo Asmodeu e o saltimbanco Quirino, que apaixonado por ela e louco de ciúme, aprisiona seu amado"
+}
+
+function voltar(elemento) {
+    document.getElementById("mousemove").innerHTML = "MAIS INFORMAÇÕES"
+}
